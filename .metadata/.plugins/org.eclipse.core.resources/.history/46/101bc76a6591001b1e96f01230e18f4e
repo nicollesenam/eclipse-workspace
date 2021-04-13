@@ -1,0 +1,27 @@
+//while e do while
+package geek;
+import java.util.Scanner;
+
+public class Programa07 {
+	public static void main(String[] args) {
+		
+		int idade;
+		String nome;
+		
+		//para receber dados do usuario via teclado
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("informe seu nome: ");
+		nome = teclado.nextLine();
+		//next line é pra receber dados do tipo string
+		
+		System.out.println("informe sua idade: ");
+		idade = teclado.nextInt();
+		//next int é a função pra receber dados do tipo inteiro
+		
+		System.out.println(nome + " tem " + idade + " anos");
+		
+		teclado.close();
+	}
+
+}

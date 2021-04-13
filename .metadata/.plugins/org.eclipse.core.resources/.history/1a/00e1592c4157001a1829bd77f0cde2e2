@@ -1,0 +1,14 @@
+# coding: iso-8859-1 -*-
+#entradas
+num1 = int(input("Informe o primeiro n�mero:  "))
+num2 = int(input("Informe o segundo n�mero:  "))
+#python nao precisa informar qual o tipo de variavel
+#mas essas variaveis sem o "int"/cast sao recebidas como string, com o int na frente
+#sao convertidas pra int
+
+#processamento
+soma = num1 + num2
+multiplicacao = soma * num1
+
+#sa�da
+print("O resultado da multiplicacao � {0}".format(multiplicacao))

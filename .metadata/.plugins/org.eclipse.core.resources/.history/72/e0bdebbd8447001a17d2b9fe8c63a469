@@ -1,0 +1,11 @@
+package br.com.geekuniversitysecao07;
+
+public class Exercicio04 {
+
+	public static void main(String[] args) {
+		int valor, maior = - 9999, menor = 9999
+
+
+	}
+
+}

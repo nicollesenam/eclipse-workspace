@@ -1,0 +1,33 @@
+package br.com.geekuniversitysecao08;
+
+import java.util.Scanner;
+
+public class Exercicio06 {
+
+	public static void main(String[] args) {
+		float[] vetor = new float[5];
+		int c;
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Informe o código:  ");
+		c = teclado.nextInt();
+		if(c != 0) {
+			for(int i = 0; i < 5; i++) {
+				System.out.println("Digite um valor para o vetor: ");
+				vetor[i] = teclado.nextFloat();
+				if(c == 1) {
+					System.out.println(vetor[i]);
+				}
+				if(c == 2) {
+					for(int i = 4; i >= 0; i--) {
+						System.out.println(vetor[i]);
+					}
+				}
+		teclado.close();			
+			}
+		}
+
+
+	}
+
+}

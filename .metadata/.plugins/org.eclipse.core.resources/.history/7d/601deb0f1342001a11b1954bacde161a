@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(){
+	int numero;
+
+	printf("Informe um número que deseja ver a tabuada:  ");
+	gets(numero);
+
+	while(numero < 1 || > 10){
+		printf
+
+	for(int i = 1; i <= 10; i++);
+
+	}
+
+
+
+
+}

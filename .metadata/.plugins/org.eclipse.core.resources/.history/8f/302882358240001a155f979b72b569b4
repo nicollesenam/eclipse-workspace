@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main(){
+	printf("Oi vc vai ser aprovada na uea");
+	return 0;
+}

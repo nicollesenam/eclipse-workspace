@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(){
+	char e = 'excesso';
+	float p, m;
+
+	printf("Informe o peso dos peixes:  ");
+	fflush(stdout);
+	scanf("%f", &p);
+
+	if(p > 50){
+		m = (50 - p) * 4;
+		printf("O seu peso ideal seria %.2f", peso_ideal);
+
+	}else{
+		e = 0;
+		m = 0;
+		printf("Não houve excessos, portanto não há multa.");
+
+
+    }
+
+
+
+
+	}
+}

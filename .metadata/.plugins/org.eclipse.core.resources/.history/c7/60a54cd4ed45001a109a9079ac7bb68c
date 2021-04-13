@@ -1,0 +1,34 @@
+package br.com.geekuniversity.secao06;
+
+import java.util.Scanner;
+
+public class Exercicio06 {
+
+	public static void main(String[] args) {
+		int codigo;
+		float horas_trabalhadas, e = 0, salario, valor_hora = (float)10.00;
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Informe um código:   ");
+		codigo = teclado.nextInt();
+		System.out.println("Quantas horas você trabalhou?:   ");
+		horas_trabalhadas = teclado.nextFloat();
+		
+		if(horas_trabalhadas > 50) {
+			//e = horas_trabalhadas - 50;
+			//salario excedente = e * 20;
+			e = (float)(horas_trabalhadas - 50) * (float)20.00;
+			salario = (horas_trabalhadas * valor_hora) + e;
+			//salario total = seria 50 * 10 + o excesso que ele trabalhou
+			//exemplo, 60 horas e * 20 que srria o valor por excesso
+		}else {
+			salario
+			e = 0;
+		}
+        System.out.printf("Salário total: R$ %.2f\n", salario);
+        System.out.printf("Salário excedente: R$.2f\n ", e);
+
+        teclado.close();
+	}
+
+}

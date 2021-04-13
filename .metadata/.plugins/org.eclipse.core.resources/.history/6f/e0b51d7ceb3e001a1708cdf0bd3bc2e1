@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(){
+	int numero, p, i;
+
+	printf("Informe um valor:  ");
+	fflush(stdout);
+	scanf("%d", &numero);
+
+	if(numero % 2 == 0){
+		p = numero;
+		printf("O número %d é par", p);
+	}else{
+		i = numero;
+		printf("O número %d é ímpar", i);
+
+
+
+	}
+}

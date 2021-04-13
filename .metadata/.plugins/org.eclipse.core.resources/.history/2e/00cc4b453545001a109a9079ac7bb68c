@@ -1,0 +1,29 @@
+package br.com.geekuniversity.secao06;
+
+import java.util.Scanner;
+
+public class Exercicio04 {
+
+	public static void main(String[] args) {
+		//variaveis
+		float altura, peso_ideal;
+		char sexo;
+		Scanner teclado = new Scanner(System.in);
+		//entradas
+		System.out.println("Informe sua altura:  ");
+		altura = teclado.nextFloat();
+		
+		System.out.println("Informe seu sexo(m/f):  ");
+		sexo = teclado.next().charAt(0);
+		//charat0 fuciona para transformar em string
+		//começando na posicao 0, primeira letra se a pessoa digita feminino, so conta o F
+		//nao existe nextchar, entao coloca pra receber
+		//apenas 1 string, como "sexo"
+		
+		
+		
+
+
+	}
+
+}

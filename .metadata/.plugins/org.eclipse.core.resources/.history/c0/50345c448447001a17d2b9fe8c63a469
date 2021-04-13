@@ -1,0 +1,24 @@
+package br.com.geekuniversitysecao07;
+
+import java.util.Scanner;
+
+public class Exercicio03 {
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		for(int i = 100; i <= 200; i++) {
+			System.out.println(i);
+			if(i % 2 != 0) {
+				System.out.println("Número ímpar");
+			}
+			
+		}
+		teclado.close();
+	}
+
+}
+//essa maneira mostra tanto os numeros pares quanto os impares, sendo que os impares
+//aparece escrito embaixo "numero impar'"
+//se fosse pra escrever apenas os impares seria assim:
+//for(int i = 100; i <= 200; i++) {
+//	if(i % 2 != 0) {
+//		System.out.println(i);

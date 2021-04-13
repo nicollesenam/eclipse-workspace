@@ -1,0 +1,15 @@
+package br.com.geekuniversitysecao08;
+
+import java.util.Scanner;
+
+public class Exercicio06 {
+
+	public static void main(String[] args) {
+		float[] vetor = new float[5];
+		int c;
+		Scanner teclado = new Scanner(System.in);
+
+
+	}
+
+}

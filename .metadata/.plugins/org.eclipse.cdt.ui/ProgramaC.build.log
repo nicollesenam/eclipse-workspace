@@ -1,0 +1,7 @@
+16:38:45 **** Incremental Build of configuration Debug for project ProgramaC ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o test.o "..\\test.c" 
+gcc -o ProgramaC.exe test.o 
+
+16:38:50 Build Finished. 0 errors, 0 warnings. (took 5s.197ms)
+

@@ -1,0 +1,30 @@
+package br.com.geekuniversitysecao08;
+
+import java.util.Scanner;
+
+public class Exercicio02 {
+
+	public static void main(String[] args) {
+		//variaveis
+		int[] vetor1 = new int[10];
+		//em java pra criar vetor coloca-se o tipo de dado (int), abre e fecha colchetes
+		//escreve o nome da variavel (vetor1), dps new e o tipo de dado, e qual o tamanho dele
+		// em colchetes
+		//vetor do tipo int de 10 elementos
+		int[] vetor2 = new int[10];
+		int[] soma = new int[10];
+		Scanner teclado = new Scanner(System.in);
+		
+		for(int i = 0; i < 10; i++) {
+			System.out.println("Digite um valor para o primeiro vetor:  ");
+			vetor1[i] = teclado.nextInt();
+			System.out.println("Digite um valor para o segundo vetor:  ");
+			vetor2[i] = teclado.nextInt();
+			
+			
+		}
+		
+
+	}
+
+}
