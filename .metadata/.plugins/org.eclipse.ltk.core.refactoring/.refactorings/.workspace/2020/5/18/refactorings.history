@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;ProgramaPython/secao08/Exercício06.py&apos;" deleteContents="false" description="Delete resource &apos;ProgramaPython/secao08/Exercício06.py&apos;" element1="/ProgramaPython/secao08/Exercício06.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1588364561617"/>&#x0A;<refactoring comment="Delete resource &apos;CodigoFonte/ex1.c&apos;" deleteContents="false" description="Delete resource &apos;CodigoFonte/ex1.c&apos;" element1="/CodigoFonte/ex1.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1588364608036"/>
-</session>

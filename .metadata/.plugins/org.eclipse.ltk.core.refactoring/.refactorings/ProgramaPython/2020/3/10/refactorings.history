@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;ProgramaPython/secao03/Exercício03&apos; to &apos;Exercício02&apos;" description="Rename resource &apos;Exercício03&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="secao03/Exercício03" name="Exercício02" stamp="1583171691521" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;ProgramaPython/secao03/Exercício02&apos; to &apos;Exercício02.py&apos;" description="Rename resource &apos;Exercício02&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="secao03/Exercício02" name="Exercício02.py" stamp="1583171701723" updateReferences="true"/>
-</session>
